@@ -56,8 +56,8 @@ const Bio = () => {
       />
       <p>
         These are merely musings written by <strong>{author}</strong>, a
-        Brazilian Full Stack Developer. You can check with what he is tinkering
-        on his{" "}
+        Brazilian Full Stack Developer. You can check what he is currently
+        tinkering on his{" "}
         <a href={`https://github.com/${social.github}`}>GitHub profile</a> and{" "}
         <a href={`https://twitter.com/${social.twitter}`}>
           follow him on Twitter.
