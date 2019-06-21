@@ -1,12 +1,8 @@
 {
-  "name": "gatsby-starter-blog",
-  "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "name": "site",
+  "description": "A personal blog built with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Manoel <manoel.lobo@gmail.com>",
   "dependencies": {
     "gatsby": "^2.10.0",
     "gatsby-image": "^2.2.1",
@@ -30,23 +26,24 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
-    "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.54",
+    "typeface-alegreya": "^0.0.69",
+    "typeface-alegreya-sans": "^0.0.72",
     "typography": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "typography-theme-de-young": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://manoel.tech",
   "keywords": [
-    "gatsby"
+    "developer",
+    "blog"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/ManoelLobo/site.git"
   },
   "scripts": {
     "build": "gatsby build",

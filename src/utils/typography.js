@@ -1,17 +1,21 @@
 import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
+import deYoung from "typography-theme-de-young"
 
-Wordpress2016.overrideThemeStyles = () => {
+deYoung.overrideThemeStyles = () => {
   return {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    a: {
+      color: "hsl(122, 47%, 35%)",
+      textDecoration: "none",
+    },
   }
 }
 
-delete Wordpress2016.googleFonts
+delete deYoung.googleFonts
 
-const typography = new Typography(Wordpress2016)
+const typography = new Typography(deYoung)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
