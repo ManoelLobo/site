@@ -59,7 +59,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Manoel's Dev Blog`,
-        short_name: `Manoel.Tech`,
+        short_name: `manoel.tech`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#3F9142`,
