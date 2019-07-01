@@ -34,7 +34,7 @@ I use the [Ubuntu](https://ubuntu.com/download/desktop) default distro, but make
 
 It is necessary to add the repository to the system sources list before installing it:
 
-```
+```sh
 sudo add-apt-repository ppa:tista/adapta
 sudo apt update
 sudo apt install adapta-gtk-theme
@@ -44,7 +44,7 @@ sudo apt install adapta-gtk-theme
 
 Similarly, to add the Paper Project repo:
 
-```
+```sh
 sudo add-apt-repository ppa:snwh/pulp
 sudo apt update
 sudo apt install paper-icon-theme
