@@ -10,6 +10,10 @@ deYoung.overrideThemeStyles = () => {
       color: "hsl(122, 47%, 35%)",
       textDecoration: "none",
     },
+    pre: {
+      background: "rgba(0,0,0,0.05)",
+      overflow: "auto",
+    },
   }
 }
 
