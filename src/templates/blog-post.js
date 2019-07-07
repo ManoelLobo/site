@@ -35,6 +35,15 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
+
+        {post.frontmatter.crossLink ? (
+          <blockquote>
+            This text is cross-posted at{" "}
+            <a href={post.frontmatter.crossLink}>DEV.to</a>. You may go there to
+            discuss and leave your comments.
+          </blockquote>
+        ) : null}
+
         <Bio />
 
         <ul
@@ -84,6 +93,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        crossLink
       }
     }
   }

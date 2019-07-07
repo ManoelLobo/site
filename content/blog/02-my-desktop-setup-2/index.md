@@ -2,6 +2,7 @@
 title: "My desktop setup - Part 2: The Z in the shell"
 date: "2019-07-01T15:00:00.000Z"
 description: "Using Zsh as my default shell"
+crossLink: "https://dev.to/manoeltlobo/my-desktop-setup-part-2-the-z-in-the-shell-3a2n"
 ---
 
 On my [last post](01-my-desktop-setup), I talked a bit about setting the OS appearance to my liking. Now, to the shell.
@@ -14,7 +15,7 @@ I tested Zsh previously, but only recently put the effort to set it in a way tha
 
 To use Zsh in Ubuntu, you need to install it and set as your default shell:
 
-```sh
+```bash
 $ sudo apt install zsh
 $ chsh -s $(which zsh)
 ```
@@ -33,7 +34,7 @@ Customizing the terminal can be a quite daunting task. Luckily, there are great 
 
 To install it:
 
-```sh
+```bash
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
@@ -49,7 +50,7 @@ It is... different. We got the git status indicator, yay!. But not much attracti
 
 The Oh My Zsh framework comes with a lot of themes, like one of my favourites, agnoster. To set one of these, you just need to edit the zshrc configuration file (`~/.zshrc`):
 
-```sh
+```bash
 ZSH_THEME="agnoster"
 ```
 
@@ -65,14 +66,14 @@ Thou I find this theme quite eye-pleasing, I decided to use the `powerlevel9k` o
 
 First, to install it:
 
-```sh
+```bash
 $ sudo apt install powerline powerline-fonts
 $ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 ```
 
 Then, edit the `~/.zshrc` file and add a few more lines to adjust the theme:
 
-```sh
+```bash
 # Hide the user from the prompt
 DEFAULT_USER=$USER
 
@@ -89,14 +90,14 @@ I must admit that I am slightly lazy, so I'd prefer that my tools do the work fo
 
 To install them, clone their git repos into the plugins folder of Oh My Zsh:
 
-```sh
+```bash
 $ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
 After that, edit your `~/.zshrc` (again!) and add those to the plugins section:
 
-```sh
+```bash
 plugins=(
   zsh-autosuggestions
   zsh-syntax-highlighting

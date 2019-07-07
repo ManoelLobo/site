@@ -2,6 +2,7 @@
 title: "My desktop setup - Part 1"
 date: "2019-06-28T13:30:00.000Z"
 description: "What better way to start a dev blogging journey than with the 'print Hello World' equivalent?"
+crossLink: "https://dev.to/manoeltlobo/my-desktop-setup-part-1-bn1"
 ---
 
 I spend a good amount of my time programming (8+ hours, Monday to Friday at least) with an Ubuntu Linux workstation since 2012. A few years ago, I started to tweak a setup that I thought it was nice to look and reduced eyestrain as much as possible. A previous look at my setup was registered in a [GitHub repository](https://github.com/ManoelLobo/my-desktop-setup), but I changed it since then, so here come the new looks!
@@ -34,7 +35,7 @@ I use the [Ubuntu](https://ubuntu.com/download/desktop) default distro, but make
 
 It is necessary to add the repository to the system sources list before installing it:
 
-```sh
+```bash
 $ sudo add-apt-repository ppa:tista/adapta
 $ sudo apt update
 $ sudo apt install adapta-gtk-theme
@@ -44,7 +45,7 @@ $ sudo apt install adapta-gtk-theme
 
 Similarly, to add the Paper Project repo:
 
-```sh
+```bash
 $ sudo add-apt-repository ppa:snwh/pulp
 $ sudo apt update
 $ sudo apt install paper-icon-theme
