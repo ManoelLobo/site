@@ -2,7 +2,7 @@
 title: "My desktop setup - Part 3: The VS Code"
 date: "2019-07-08T15:00:00.000Z"
 description: "The way I roll with the code flow"
-crossLink: ""
+crossLink: "https://dev.to/manoeltlobo/my-desktop-setup-part-3-the-vs-code-5ffc"
 ---
 
 I already discussed at length about my [OS look](/01-my-desktop-setup) and my [terminal configuration](/02-my-desktop-setup-2). Now it is time to talk about my main daily companion, the VS Code editor.
