@@ -2,7 +2,7 @@
 title: "Learn in public & save the civilization"
 date: "2019-07-16T10:30:00.000Z"
 description: "Or 'A slightly clickbaity title to something indeed important'."
-crossLink: "https://dev.to/manoeltlobo/learn-in-public-save-the-civilization-55kk"
+crossLink: "https://dev.to/manoeltlobo/learn-in-public-save-the-civilization-2j37"
 ---
 
 One of the reasons to create this habit of blogging is to adopt the habit of learning in public. Though the concept is not exactly new, it was beautifully presented by [Shawn Wang](https://twitter.com/swyx) on [one of his blog posts](https://www.swyx.io/writing/learn-in-public/).
